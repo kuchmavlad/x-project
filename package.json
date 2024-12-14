@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "prepare": "husky",
-    "lint": "eslint . --ext .ts,.html --fix"
+    "lint": "npx eslint \"**/*.{ts,html}\" --fix"
   },
   "lint-staged": {
     "*.{ts,html,scss}": [
@@ -36,7 +36,7 @@
     "@angular/compiler-cli": "^19.0.0",
     "@types/jasmine": "~5.1.0",
     "angular-eslint": "19.0.2",
-    "eslint": "^9.16.0",
+    "eslint": "^9.17.0",
     "husky": "^9.1.7",
     "jasmine-core": "~5.4.0",
     "karma": "~6.4.0",
